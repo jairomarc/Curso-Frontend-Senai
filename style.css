@@ -1,0 +1,185 @@
+header {
+    border: 2px solid blue;
+    background-color: blue;
+    background: rgba(13, 83, 224, 0.801);
+}
+.div-1{
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+    align-items: center;
+
+}
+
+#lista1{
+    display: flex;
+    gap: 30px;
+    list-style-type:none;
+    color: white;
+    padding-right: 10px;
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    opacity: 0.9;
+}
+a:hover{
+    opacity: 1;
+}
+
+.div-2{
+display: flex;
+padding: 20px 30px;
+align-items: center;
+justify-content: space-between;
+}
+.lista2{
+    display: flex;
+    gap: 30px;
+    list-style-type:none;
+    color: white;
+    padding-right: 10px;
+    align-items: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:100px;
+    
+}
+.icones{
+    display: flex;
+    gap: 10px;
+    color: white;
+    justify-content: right;
+    
+
+}
+li{
+    text-decoration: underline;
+
+}
+.secao-1{
+    border: 1px solid black;
+    height: 500px;
+    display: flex;
+    font-family:inherit;
+
+}
+.div-secao{
+    border: 1px solid black;
+    color: white;
+}
+.watch-fifa{
+    flex-basis: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url("imagem1.webp");
+    background-size: cover;
+    background-position-y: center;
+    color: white;
+    background-image: url(MicrosoftTeams-image-139.webp);
+}
+
+.watch-fifa button{
+    padding: 10px 60px;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+    background-image: linear-gradient(111.98deg,#00b8ff 18.07%,#1574c4 90.31%);
+    
+
+}
+.watch-fifa button:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.copa{
+    flex-basis: 75%;
+    background-image: url(FIFA-Club-World-Cup-UAE-2021-Draw.webp);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    padding: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    text-align: center;
+    
+}
+
+.cards button{
+    padding: 10px 60px;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+    background-image: linear-gradient(111.98deg,#00b8ff 18.07%,#1574c4 90.31%);
+}
+
+ img:hover{
+    transform: scale(1.1);
+    cursor: pointer; 
+    transition: 0.5s;
+    border-radius: 15%;
+}
+.titulo{
+    justify-content: center;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cards p{
+    width: 100%;
+
+}
+.trofeu {
+    width: 50%;
+    border-radius: 0;
+}
+.secao-4{
+    display: flex;
+    flex-wrap: wrap;
+    width: 2px;
+}
+.imagens{
+    display: flex;
+}
+
+
+
+
+/* order: altera a ordem dos elementos, basta colocar a ordem numerica que deseja   */
+    /* gap= da um espaço entre eles */
+    /* align content alinha todo mundo */
+    /* flex wrap quebra a linha */
+/* flex grow ´é a capacidade de crescer a div, por padrao vem 0 */
+/* flex shrink é a capacidasde de uma div diminuir, por padrao vem 1 */
+/* flex-basis define um tamanho especifico para a div. se estiver em row define a largura se estiver em column define a  altura */
+/* align self alinha a propria linha no eixo contrário. Podendo */
+/* na tag flex define flex grow, shrink e basis nesta ordem*/
+
+/* *{
+    margin: 10;
+    padding: 5px;
+    box-sizing: border-box; (/* todo site tem essa estilização padrão */
+
